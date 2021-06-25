@@ -1,0 +1,109 @@
+.blog-titel {}
+
+.blog-titel span {
+    color: #849ff3;
+}
+
+.blog-titel h3 {
+    margin: 13px 0;
+    font-weight: 700;
+    position: relative;
+}
+
+.blog-titel h3::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #849ff3;
+    bottom: -21px;
+    left: 243px;
+}
+
+.blog-titel p {
+    color: rgb(56, 51, 51);
+    margin-top: 32px;
+    font-weight: 400;
+}
+
+.card {
+    position: relative;
+}
+
+.author {
+    width: 180px;
+    background: #3b66eb;
+    border-radius: 25px;
+    padding: 5px;
+    position: absolute;
+    bottom: 197px;
+    right: 13px;
+}
+
+.author img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.author span {
+    color: #fff;
+    font-weight: 500;
+}
+
+.foter-ff {
+    border-bottom: 2px solid #ddd;
+}
+
+.first-foter img {
+    margin: 23px 0;
+}
+
+.first-foter p {
+    margin: 20px 0;
+}
+
+.first-foter ul {
+    margin-top: 40px;
+}
+
+.first-foter ul li {}
+
+.first-foter ul li a {}
+
+.poper-list {
+    margin-top: 22px;
+}
+
+.poper-list li {
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.poper-list li strong {
+    font-weight: 700;
+    font-size: 25px;
+    position: relative;
+}
+
+.poper-list li strong::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 3px;
+    background: #3763eb;
+    height: 28px;
+    width: 3px;
+    margin-right: 5px;
+}
+
+.poper-list li:hover {
+    color: rgb(235, 102, 54);
+    letter-spacing: 1px;
+}
+
+.foter {
+    background: #081828;
+}
